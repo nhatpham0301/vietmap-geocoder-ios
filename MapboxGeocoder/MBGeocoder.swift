@@ -6,7 +6,7 @@ typealias JSONDictionary = [String: Any]
 public let MBGeocoderErrorDomain = "MBGeocoderErrorDomain"
 
 /// The Mapbox access token specified in the main application bundle’s Info.plist.
-let defaultAccessToken = Bundle.main.infoDictionary?["MGLMapboxAccessToken"] as? String
+let defaultAccessToken = Bundle.main.infoDictionary?["VietMapAccessToken"] as? String
 
 /// The user agent string for any HTTP requests performed directly within this library.
 let userAgent: String = {
